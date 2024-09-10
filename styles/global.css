@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --gray: #545454;
+  --gradient: linear-gradient(
+    117deg,
+    rgba(250, 151, 60, 1) 0%,
+    rgba(234, 109, 128, 1) 58%,
+    rgba(184, 43, 170, 1) 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
